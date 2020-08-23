@@ -1,32 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Jura&display=swap');
 
 
 * {
     margin: 0;
     padding:5px;
-    color: rgb(78, 77, 77) ;
+    
     
 }
 h1{
     letter-spacing: 0.5em;
-    color:#628cbc;
+    color:	#1b2f55;
     margin-bottom: 40px;
+    font-family: 'Srisakdi', cursive;
 }
 body{
-    font-family: 'Srisakdi', cursive; 
+  /*  font-family: 'Srisakdi', cursive; */
+  /*font-family: 'Advent Pro', sans-serif;*/
+  font-family: 'Jura', sans-serif;
 }
+
 .Linda{
-    width: 100%;
-    height: 30%;
+    width: 80%;
+    height: 10%;
     border-radius: 20px;
 }
 .picture {
     margin-left: 100px;
     border-radius: 10px;
     margin-right:60px;
-    -webkit-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
-    -moz-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
-     box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
+   
 }
 .fa{
     color:#628cbc;
@@ -42,13 +46,29 @@ li {
 }
 .col-md-6{
     border-radius: 10px;
-    -webkit-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
-    -moz-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
-     box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
+    
 }
 h3{
     letter-spacing: 0.5em;
 }
+.individual{
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    
+    -webkit-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
+    -moz-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
+     box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
+}
 .individual img{
+    width: 100%;
+}
+.btn-outline-dark {
+    margin-right:90px;
+}
+footer{
+    color: white;
+    margin-top: 100px;
+    background-color:#1b2f55;
     width: 100%;
 }
