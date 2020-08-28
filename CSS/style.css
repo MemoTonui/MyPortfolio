@@ -56,12 +56,13 @@ h3{
     padding: 15px;
     border-radius: 10px;
     
-    -webkit-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
-    -moz-box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
-     box-shadow: 9px 25px 53px -5px rgba(110,110,110,1);
+    -webkit-box-shadow: 9px 15px 53px -5px rgba(110,110,110,1);
+    -moz-box-shadow: 9px 15px 53px -5px rgba(110,110,110,1);
+     box-shadow: 9px 15px 53px -5px rgba(110,110,110,1);
 }
 .individual img{
     width: 100%;
+
 }
 .btn-outline-dark {
     margin-right:90px;
