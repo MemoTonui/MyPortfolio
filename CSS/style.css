@@ -36,6 +36,10 @@ strong{
     height: 10%;
     border-radius: 20px;
 }
+p {
+    line-height: 2em;
+    margin-right: 20px;
+}
 .picture {
     margin-left: 100px;
     border-radius: 10px;
